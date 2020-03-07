@@ -124,9 +124,9 @@ section{ display: flex; }
 }
 .hero{
     height: 400px;
-    background-image: url("../img/hero.jpg");
+    background-image: url('../img/hero.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     text-transform: uppercase;
 }
 .hero h1, .hero h2{
