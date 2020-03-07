@@ -122,3 +122,73 @@ section{ display: flex; }
     max-width: 100%;
     border-radius: 100px;
 }
+.hero{
+    height: 400px;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+.hero h1, .hero h2{
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+.hero h1{
+    position: relative;
+    left: -30px;
+}
+.hero h2{
+    color: #faa541;
+}
+.hero p{
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 0 10px;
+}
+.banner{
+    width: 100%;
+    margin: 55px 15px;
+    padding: 25px 0;
+    border-top: 1px solid #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+}
+.banner img{
+    width: 250px;
+}
+.banner-text{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+.banner-text > div:last-child{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.category{
+    flex: 0 0 25%;
+    padding: 0 15px;
+}
+.category img{
+    width: 100%;
+}
+.category-text{
+    color: #364147;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+.category-text > div {
+    color: #faa541;
+    font-size: 16px;
+    font-weight: 200;
+}
+.category-text h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
